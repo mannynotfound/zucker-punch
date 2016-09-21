@@ -1,0 +1,18 @@
+html {
+  margin: 0;
+  background: #3B5998;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100vh;
+}
+
+body {
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+
+.wrapper {
+  display: table-cell;
+  vertical-align: middle;
+}

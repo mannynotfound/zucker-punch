@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
+    <title><%= htmlWebpackPlugin.options.title %></title>
+  </head>
+  <body style="margin:0px;">
+    <div style="display:none">
+      <img id="target" src="http://www.taxjusticeblog.org/images/zuckerberg.jpg" height="308" width="540">
+      <canvas id="targetcopy"></canvas>
+    </div>
+    <div class="wrapper" style="text-align:center;">
+      <canvas style="display:inline-block;" id="output"></canvas>
+    </div>
+    <script src="https://cdn.socket.io/socket.io-1.1.0.js"></script>  
+  </body>
+</html>

@@ -1,0 +1,27 @@
+{
+  "name": "zucker-punch",
+  "version": "1.0.0",
+  "description": "Punch Zuckerberg with JavaScript.",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --inline --progress --colors",
+    "build": "webpack -p && node server.js"
+  },
+  "author": "manny404",
+  "license": "WTFPL",
+  "devDependencies": {
+    "css-loader": "^0.23.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "favicons-webpack-plugin": "0.0.6",
+    "html-webpack-plugin": "^2.22.0",
+    "json-loader": "^0.5.4",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.13.1"
+  },
+  "dependencies": {
+    "express": "^4.14.0",
+    "myo": "^2.1.1",
+    "socket.io": "^1.4.8"
+  }
+}
